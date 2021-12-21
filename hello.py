@@ -1,6 +1,10 @@
-#addition
-a = b = 10
-c = a + b
-print(c)
-print("sum=",c)
-print(f"sum={c}")
+#This is a single line comment
+'rehan khan'
+"Rehan Khan"
+
+'''
+
+'''
+
+"""
+"""
