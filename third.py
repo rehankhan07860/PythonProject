@@ -1,6 +1,9 @@
-#Program to find the area of a circle
-import math
-r = float(input("Enter the radius of the circle: "))
-area = math.pi*r*r
-print("Area: %.2f" % (area))
-print("Area: {:0.2f}".format(area))
+#program to find even number
+a = int(input("Enter a number: "))
+
+if (a % 2 == 0): 
+    print(f"{a} is even number")
+else: 
+    print(f"{a} is odd number.")
+
+
