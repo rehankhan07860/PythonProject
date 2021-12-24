@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 int main()
 {
     while (1)
@@ -53,11 +55,12 @@ int main()
                 printf("%d", b);
             }
         case 7:
-            return 0;
+            exit(0);
 
         default:
             printf("invalid choise");
         }
     }
+
     return 0;
 }

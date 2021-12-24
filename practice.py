@@ -1,2 +1,2 @@
 string = input("Enter your expression ")
-print("result:" +str(eval(string)))
+print("result:" + str(eval(string)))
